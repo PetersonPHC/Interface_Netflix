@@ -1,0 +1,124 @@
+:root{
+    --vermelho:#e50914;
+    --preta:#141414;
+
+}
+@font-face{
+    font-family: Rumble Brave;
+    src: url("C:\Users\peter\Downloads\rumble_brave\Rumble Brave.otf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos Base*/
+body{
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    margin-right: 20px;
+
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: Rumble Brave, Times;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 15px;
+    font-size: 15px;
+}
+/*Header Hover quando o Mouse está em cima do Link*/
+header nav a:hover{
+    color: #fff;
+
+}
+
+/*serie principal*/
+.Serie-Principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../Imagens/Fundo_The100.png);
+
+    height: 400px;
+    background-size: cover;
+    margin-bottom: 3px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;    
+}
+.Serie-Principal .Descricao{
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+.Titulo{
+    margin-top: 12%;
+    font-size: 40px;
+    font-family: Rumble Brave;
+
+}
+
+button:hover{
+    border-color:rgba(104, 103, 103, 0.862);
+    background-color: aliceblue;
+    color: black;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+div .botoes i{
+    margin-right: 5px;
+}
+.botao1{
+    background-color: rgba(100,0,0,.59);
+    color: white;
+    border-radius: 5px;
+
+    padding: 15px 30px;
+    font-size: 14px;
+    margin-right: 15px;
+
+}
+
+.botao2{
+    background-color: rgba(77, 76, 76, 0.59);
+    color: white;
+    border-radius: 5px;
+
+
+    padding: 15px 30px;
+    font-size: 14px;
+    margin-right: 15px;
+
+}
+
+.container{
+    margin-left: 20px;
+}
+.Serie-Principal .container{
+    width: 70%;
+}
+
+.box-filmes{
+    display: block;
+    height: 100%;
+    width: 100%;
+
+}
