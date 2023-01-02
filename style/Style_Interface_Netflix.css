@@ -56,7 +56,6 @@ header nav a:hover{
 
     height: 400px;
     background-size: cover;
-    margin-bottom: 3px;
 
     display: flex;
     flex-direction: column;
@@ -121,4 +120,20 @@ div .botoes i{
     height: 100%;
     width: 100%;
 
+}
+.title{
+    color:ghostwhite;
+    font-family: Rumble Brave, Times;
+    font-size: 35px;
+    margin-bottom: 7px;
+    margin-top: 0;
+}
+
+footer{
+    display: flex;
+    color:var(--vermelho);
+    font-family: Rumble Brave, Times;
+    font-size: 35px;
+    justify-content: center;
+    padding-bottom: 30px;
 }
