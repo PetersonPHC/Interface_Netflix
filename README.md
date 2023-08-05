@@ -1,4 +1,4 @@
-# Clone-Netflix
+# Interface-Netflix
 ## Releitura da página inicial da Netflix com 2 carrosséis de filmes.
 
 ### Parte: Superior
